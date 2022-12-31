@@ -7,6 +7,14 @@ const Budget = () => {
     return (
         <div className='alert alert-secondary'>
             <span>Budget: £{budget}</span>
+            {/* <input 
+                        required='required'
+                        type='number'
+                        id='budget'
+                        value={budget}
+                        style={{ marginLeft: '2rem' , size: 10}}
+                        onChange={(event) => setCost(event.target.value)}>
+                        </input>*/}
         </div>
     );
 };
